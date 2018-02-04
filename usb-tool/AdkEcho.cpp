@@ -16,11 +16,11 @@ Android USB connection sample.
 #include "AOA/AOA.h"
 
 // USB Connector opend.
-AOA acc("kotemaru.org",
-        "AdkSample",
-        "Sample for ADK",
-        "1.0",
-        "http://blog.kotemaru.org/androidUSBSample",
+AOA acc("Sample, Inc.",   // manufacturer
+        "DemoKit",        // model
+        "UsbAccessorySample for ADK", // description
+        "1.0",            // version
+        "https://github.com/mapyo/UsbAccessorySample", // url
         "000000000000001") ;
 
 /**
