@@ -1,7 +1,10 @@
+# for mac
+PREFIX=/usr/local/Cellar/libusb/1.0.21
+USB=usb-1.0
 
 # for linux
-PREFIX=/usr
-USB=usb-1.0
+# PREFIX=/usr
+# USB=usb-1.0
 
 # for FreeBSD
 #PREFIX=/usr/local
