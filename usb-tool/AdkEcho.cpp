@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 		if (len < 0) error("acc.read",len);
 		buff[len+1] = '\0';
 		printf("USB>%s\n", buff);
-		for (int i=0; i<len; i++) buff[i] = buff[i] - 0x20;
+		// for (int i=0; i<len; i++) buff[i] = buff[i] - 0x20;
 		acc.write(buff, len, 1000);
 	}
 }
